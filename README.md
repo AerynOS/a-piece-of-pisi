@@ -1,7 +1,7 @@
 # a-piece-of-pisi
 
 Crazy time: We're building a tool to convert a selection of `.eopkg` packages into `.stone` packages to be consumed
-by `moss-rs` to vastly accelerate the development of Serpent OS and Solus 5.
+by `moss` to vastly accelerate the development of AerynOS and Solus 5.
 
 Plan:
 
@@ -21,10 +21,6 @@ Plan:
 Note: This method bypasses the need to rewrite `boulder` into Rust just yet, allowing us to reuse our existing
 solutions to perform the mass conversion and rebootstrap / cleanup, as well as augmenting the bootstrap repo
 with `soname`, `pkgconfig` dependencies etc.
-
-## Timeline
-
-This, and `moss-rs`, are effectively priority 1 for Serpent.
 
 
 ## License
